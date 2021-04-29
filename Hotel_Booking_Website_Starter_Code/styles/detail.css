@@ -1,39 +1,16 @@
-#mainContainer
-{
-    height: 100%;
-    width: 100%;
+.content>img{
+    height:500px;
+    width:500px;
+    margin-top: 2%;
 }
-body
-{
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    background-color: #e0e0e0;
+.content{
+    margin-left: 4%;
+    margin-right: 4%;
 }
-.socialImage
-{
-    width: 22px;
-    height: 20px;
+form{
+    margin-bottom: 1%;
 }
-.headLogo
-{
-    height: 60px;
-    width: 60px;
+.hotel-description{
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
-#hotelImage
-{
-    width: 500px;
-    height: 500px;
-} 
-header
-{
-    background-color: rosybrown;
-}
-footer
-{
-    background-color: rosybrown;
-}
-#detailCard
-{
-    margin: 1% 4% 2% 4%;
-} 

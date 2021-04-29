@@ -1,42 +1,36 @@
-body
-{
-    height: 100%;
+body{
     width: 100%;
-    margin: 0%;
-    background-color: #e0e0e0;
+    height:100%;
 }
-.socialImage
-{
-    width: 22px;
-    height: 20px;
+.wrapper{
+    height:100%;
+    width:100%;
 }
-.headLogo
-{
-    height: 60px;
-    width: 60px;
+.list-view>#hotel-list>img{
+    height:200px;
+    width:250px;
 }
-#Main
-{
-    height: 100%;
-    width: 100%;
-
+.list-view>a>#hotel-list>img{
+    height:200px;
+    width:250px;
 }
-.list-image
-{
-    width: 250px;
-    height: 200px;
-} 
-.hotel-card
-{
-    margin: 2%;
-    background-color: rgb(132,136,139);
-    width: 40%;
+.content>.list-view>#hotel-list{
+    margin:2%;
+    background-color:rgb(132,136,139);
+    width:40%;
 }
-header
-{
-    background-color: rosybrown;
+.view-option{
+    display: flex;
+    justify-content: center;
 }
-footer
-{
-    background-color: rosybrown;
-} 
+.view-option>span{
+    padding:2%;
+    font-weight: bold;
+}
+.list-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+.map-view{
+    display: none;
+}
